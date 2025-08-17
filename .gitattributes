@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.mat linguist-language=Text
+*.meta linguist-language=Text
+Library/* linguist-vendored
+Temp/* linguist-vendored
+obj/* linguist-vendored
