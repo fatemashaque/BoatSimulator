@@ -1,7 +1,47 @@
-# Auto detect text files and perform LF normalization
 * text=auto
-*.mat linguist-language=Text
-*.meta linguist-language=Text
-Library/* linguist-vendored
-Temp/* linguist-vendored
-obj/* linguist-vendored
+
+*.meta                 linguist-detectable=false
+*.unity                linguist-detectable=false
+*.prefab               linguist-detectable=false
+*.mat                  linguist-detectable=false
+*.asset                linguist-detectable=false
+*.anim                 linguist-detectable=false
+*.controller           linguist-detectable=false
+*.overrideController   linguist-detectable=false
+*.physicMaterial       linguist-detectable=false
+*.physicMaterial2D     linguist-detectable=false
+*.guiskin              linguist-detectable=false
+*.psd                  linguist-detectable=false
+*.fbx                  linguist-detectable=false
+*.blend                linguist-detectable=false
+
+
+*.cs                   linguist-language=C#
+*.shader               linguist-language=ShaderLab
+*.cginc                linguist-language=HLSL
+*.hlsl                 linguist-language=HLSL
+*.compute              linguist-language=HLSL
+*.glsl                 linguist-language=GLSL
+*.vert                 linguist-language=GLSL
+*.frag                 linguist-language=GLSL
+*.ts                   linguist-language=TypeScript
+*.js                   linguist-language=JavaScript
+
+*.m                    linguist-detectable=false
+
+Library/**             linguist-vendored
+Temp/**                linguist-vendored
+Obj/**                 linguist-vendored
+obj/**                 linguist-vendored
+Build/**               linguist-vendored
+Builds/**              linguist-vendored
+Logs/**                linguist-vendored
+UserSettings/**        linguist-vendored
+MemoryCaptures/**      linguist-vendored
+
+*.asmdef               text
+*.asmref               text
+*.json                 text
+*.yaml                 text
+*.yml                  text
+*.xml                  text
