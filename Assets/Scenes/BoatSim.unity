@@ -484,11 +484,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2498681648873789427, guid: 3aee69660861a2449a0923912aa7c5ac, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2498681648873789427, guid: 3aee69660861a2449a0923912aa7c5ac, type: 3}
       propertyPath: m_LinearDamping
-      value: 0.01
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2498681648873789427, guid: 3aee69660861a2449a0923912aa7c5ac, type: 3}
       propertyPath: m_AngularDamping
@@ -500,7 +500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5847524804451669580, guid: 3aee69660861a2449a0923912aa7c5ac, type: 3}
       propertyPath: floatStrength
-      value: 1
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268199374655340244, guid: 3aee69660861a2449a0923912aa7c5ac, type: 3}
+      propertyPath: turnTorque
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
